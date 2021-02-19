@@ -3,27 +3,151 @@
        <head>
              <title>TPHCMC Adventures</title>
              <link rel="stylesheet" href="style.css">
+             <link rel="stylesheet" href="Slideshow.css">
+            
              <meta charset="UTF-8">
              <meta name="viewport" content="width=device-width, initial-scale=1">
              <meta name="description" content="Ein Reiseguide für Ho Chi Minh Stadt">
         </head>
         <body>
+          <div style="max-width: 1200px; margin: 0 auto;">
               <div id="top"> 
-                 <div id="logo">Ho Chi Minh Stadt</div>
-                  <p><div id="logo-name">Ein Reiseguide für Südvietnam</div></p>
-                  <div id="image" align=center> <img src="image(S).png" alt="Ein Fluss in Ho Chi Minh"></imgD:> </div> 
+                 
+                  <div style="background-image: url(Sbild.png); background-size: cover;">
+                    <div id="logo">Ho Chi Minh Stadt</div>
+                    <p><div id="logo-name">Ein Reiseguide für Südvietnam</div></p>
+                  </div>
                 </div>
             </br></br>
-                  <div id="navigation">
-                      <div> <img id="Menü" src="menü.png"> <a href="#Menü">Menü</a>
-                       <p> <img id="Home" src="Startseite.png"> <a id="zeichen" href="Startseite.html">Startseite</a></p>
-                      <p> <img id="Info" src="info.png"> <a href="Allgemeines.html">Allgemeines</a></p>
-                      <p id="Sgeschichte"><a href="Geschichte.html">Geschichte</a></p>
-                      <p id="Stipps"><a href="Tipps.html">Tipps</a></p>
-                      <p> <img id="Pinnadel" src="pinnadel.png"><a href="Entdecken.html">Entdecken</a></p>    
-                      <p id="Sessen"><a href="Essen.html">Essen</a></p>   
-                      <p id="Skultur"><a href="Kultur.html">Kultur</a></p>  
-                      <p id="Sarchitektur"><a href="Architektur.html">Architektur</a></p>  
+
+            
+            <div>
+                 <nav id="navigation">
+                  <span style="font-size:25px;cursor:pointer;margin-left: 60px;" onclick="openNav()">&#9776; Menü</span>
+                
+ <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <p> <img id="Home" src="Startseite.png"> <a id="zeichen" href="Startseite.html">Startseite</a></p><br>
+   <p> <img id="Info" src="info.png"> <a href="Allgemeines.html">Allgemeines</a></p>
+   <p id="Sgeschichte"><a href="Geschichte.html">Geschichte</a></p>
+   <p id="Stipps"><a href="Tipps.html">Tipps</a></p><br>
+   <p> <img id="Pinnadel" src="pinnadel.png"><a href="Entdecken.html">Entdecken</a></p>    
+   <p id="Sessen"><a href="Essen.html">Essen</a></p>   
+   <p id="Skultur"><a href="Kultur.html">Kultur</a></p>  
+   <p id="Sarchitektur"><a href="Architektur.html">Architektur</a></p>  
+ </div> 
+                 </nav>
+
+                 <script>
+                  function openNav() {
+                    document.getElementById("mySidenav").style.display = "block"; 
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.display = "none";
+                  }
+                  </script>
+
+<br>
+              <div id="main"> 
+                <h1>Essen</h1> <br>
+                <p>Reist man nach Ho Chi Minh, um die vietnamesische Küche näher kennenzulernen, so hat man gleichzeitig auch die Möglichkeit viele andere südasiatische Küchen, wie z.B. die thailändische oder die koreanische, auszuprobieren. Es gibt also eine Vielfalt an verschiedenen Geschmäckern.</p><br>
+                    <h3>Restaurant Ngon</h3> <br>
+                    <p>Das Restaurant Ngon überzeugt mit seinem Ambiente und hat dazu auch noch viele leckere Gerichte auf seiner Speisekarte. Von Vorspeisen bis zu den Nachtsichen. Es bietet allerlei Gerichte.</p><br><img src="ngon.png" style="margin-left: 150px;"><br><br><br>
+                    <h3>The Organic Vegeterian Restaurant</h3><br>
+                    <p>Auch als Vegetarier hat man in Ho Chi Minh Stadt viele außergewöhnliche Möglichkeiten neue Welten vom vegetarischem Essen zu entdecken. Lassen Sie sich zum Beispiel hier im Organic Vegeterian Restaurant vom geratenem Reis in einer Ananas verzaubern.</p><br><img src="organic.png" style="margin-left: 200px; margin-bottom: 40px;">
+                    <h3>King BBQ</h3><br>
+                    <p>Haben Sie mal Lust auf die koreanische Küche? Dann probieren sie doch mal dieses authentische Restaurant aus, in dem man sein Essen selber am Tisch grillt, sodass man eben sein eigenes BBQ hat. Koreanische BBQs sind einfach nur zu empfehlen.</p><br><img src="bbq.png" style="margin-left: 150px; margin-bottom: 40px;"><br>
+                    <h3>Saigon Com Nieu</h3><br>
+                    <p>Ein Restaurant bekannt für sein Banh Xeo, ein vietnamesischer Pfannkuchen gefüllt mit Schrimps, Bohnensprossen und vieles mehr. Ein einzigartiges Geschmackserlebnis.</p><br><img src="xeo.png" style="margin-left: 150px; margin-bottom: 40px">
+                    <h3>Berühmte Getränke</h3><br><ul>
+                          <li>Cafe sua da Sai Gon (ein speziell gebrrühtes Kaffee)</li>
+                          <li>Sarsi (Softgetränk)</li>
+                          <li>Sojamilch (meistens frisch gemacht und deshalb noch heiß)</li>
+                          <li>Che (eigentlich ein Dessert in verschiedenen Variationen)</li>
+                    </ul>
+                    
+              </div>
+
+              
+            <div id="aside">
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  
+                  <img src="market.png" style="width:100%">
+                  <div class="text">Ben Thanh Markt</div>
                 </div>
-                <div id="footer">Copyright 2021 | TPHCMC Adventures</div>
-    </html>
+              
+                <div class="mySlides fade">
+                
+                  <img src="notredame.png" style="width:100%">
+                  <div class="text">Notre Dame Kathedrale</div>
+                </div>
+              
+                <div class="mySlides fade">
+                 
+                  <img src="post.png" style="width:100%">
+                  <div class="text">Hauptpostamt</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="rathaus.png" style="width:100%">
+                  <div class="text">Ehemaliges Rathaus</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="tunnel.png" style="width:100%">
+                  <div class="text">Cu Chi Tunnel</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="dong.png" style="width:100%">
+                  <div class="text">Vietnamesische Geldscheine</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="fest.png" style="width:100%">
+                  <div class="text">Vietnamesische Feste</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="pho.png" style="width:100%">
+                  <div class="text">Das Gericht Pho</div>
+                </div>
+
+
+                <!-- Rechter/linker Pfeil -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- Die Punkte -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+              </div> 
+              <script src="Slideshow.js"></script>
+                 
+            </div>
+            
+            <div id="footer">Copyright 2021 | TPHCMC Adventures</div>
+              </div>
+          </div>
+              
+              
+        </body>
+ </html>

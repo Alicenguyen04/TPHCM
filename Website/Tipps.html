@@ -3,37 +3,140 @@
        <head>
              <title>TPHCMC Adventures</title>
              <link rel="stylesheet" href="style.css">
+             <link rel="stylesheet" href="Slideshow.css">
+            
              <meta charset="UTF-8">
              <meta name="viewport" content="width=device-width, initial-scale=1">
              <meta name="description" content="Ein Reiseguide für Ho Chi Minh Stadt">
         </head>
         <body>
+          <div style="max-width: 1200px; margin: 0 auto;">
               <div id="top"> 
-                 <div id="logo">Ho Chi Minh Stadt</div>
-                  <p><div id="logo-name">Ein Reiseguide für Südvietnam</div></p>
-                  <div id="image" align=center> <img src="image(S).png" alt="Ein Fluss in Ho Chi Minh"></imgD:> </div> 
+                 
+                  <div style="background-image: url(Sbild.png); background-size: cover;">
+                    <div id="logo">Ho Chi Minh Stadt</div>
+                    <p><div id="logo-name">Ein Reiseguide für Südvietnam</div></p>
+                  </div>
                 </div>
             </br></br>
-                  <div id="navigation">
-                      <div> <img id="Menü" src="menü.png"> <a href="#Menü">Menü</a>
-                       <p> <img id="Home" src="Startseite.png"> <a id="zeichen" href="Startseite.html">Startseite</a></p>
-                      <p> <img id="Info" src="info.png"> <a href="Allgemeines.html">Allgemeines</a></p>
-                        <p id="Sgeschichte"><a href="Geschichte.html">Geschichte</a></p>
-                        <p id="Stipps"><a href="Tipps.html">Tipps</a></p>
-                      <p> <img id="Pinnadel" src="pinnadel.png"><a href=".Entdecken">Entdecken</a></p>    
-                      <p id="Sessen"><a href="Essen.html">Essen</a></p>   
-                      <p id="Skultur"><a href="Kultur.html">Kultur</a></p>  
-                      <p id="Sarchitektur"><a href="Architektur.html">Architektur</a></p>  
-                      <ul id="Tipps">
-                            <h1>Tipps</h1>
-                            <li>Vietnam hat die Währung Đồng. Also nicht vergessen das Geld umzutauschen. </li></br>
-                            <li>Wichtig ist es die Reise im Voraus zu planen, denn die Orientierung kann einem anfangs schwerfallen, dank der vielen Distrikte, die ‚Quan‘ genannt werden, jedoch haben wir glücklicherweise einen Vorteil durch das lateinische Alphabet, sodass wir die Straßennamen noch lesen können.</li></br>
-                            <li>Sonnenschutz sollte in irgendeiner Form vorhanden sein. Fährt man nämlich mittags auf einem Motorroller so fühlt es sich so an, als ob einem die Haut weggebratene wird.</li></br>
-                            <li>Wirft man einen Blick auf den Verkehr, egal ob tags- oder nachtsüber, scheint es so, als gäbe es keine Regel und in Motoroller würde gleich in den nächsten knallen. Aber irgendwie hat dann wiederum alles seine Ordnung und funktioniert komischerweise. 
-                              Trotzdem sollte man als Tourist äußerst vorsichtig sein beim Überqueren einer Straße.</li></br>
-                            <li>Als Transportmittel lässt sich das Taxi empfehlen. Es ist das häufigste vorkommende Transportobjekt für Touristen auf den Straßen. Einen Motorroller als Tourist in der Stadt zu fahren, kann sehr gefährlich sein.</li>
-                            <li>Ein Mundschutz ist ebenfalls zu empfehlen aufgrund der stark vergasten Luft in der Stadt.</li></br>
-                      </ul>
+
+            
+            <div>
+                 <nav id="navigation">
+                  <span style="font-size:25px;cursor:pointer;margin-left: 60px;" onclick="openNav()">&#9776; Menü</span>
+                
+ <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <p> <img id="Home" src="Startseite.png"> <a id="zeichen" href="Startseite.html">Startseite</a></p><br>
+   <p> <img id="Info" src="info.png"> <a href="Allgemeines.html">Allgemeines</a></p>
+   <p id="Sgeschichte"><a href="Geschichte.html">Geschichte</a></p>
+   <p id="Stipps"><a href="Tipps.html">Tipps</a></p><br>
+   <p> <img id="Pinnadel" src="pinnadel.png"><a href="Entdecken.html">Entdecken</a></p>    
+   <p id="Sessen"><a href="Essen.html">Essen</a></p>   
+   <p id="Skultur"><a href="Kultur.html">Kultur</a></p>  
+   <p id="Sarchitektur"><a href="Architektur.html">Architektur</a></p>  
+ </div> 
+                 </nav>
+
+                 <script>
+                  function openNav() {
+                    document.getElementById("mySidenav").style.display = "block"; 
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.display = "none";
+                  }
+                  </script>
+
+<br>
+              <div id="main"> 
+                  <ul>
+                        <h1>Tipps</h1><br>
+                    <li>Vietnam hat die Währung Đồng. Also nicht vergessen das Geld umzutauschen. </li><br><img src="dong.png" style="margin-left: 100px;"><br><br>
+                        <li>Wichtig ist es die Reise im Voraus zu planen, denn die Orientierung kann einem anfangs schwerfallen, dank der vielen Distrikte, die ‚Quan‘ genannt werden, jedoch haben wir glücklicherweise einen Vorteil durch das lateinische Alphabet, sodass wir die Straßennamen noch lesen können.</li></br>
+                        <li>Sonnenschutz sollte in irgendeiner Form vorhanden sein. Fährt man nämlich mittags auf einem Motorroller so fühlt es sich so an, als ob einem die Haut weggebratene wird.</li></br>
+                        <li>Wirft man einen Blick auf den Verkehr, egal ob tags- oder nachtsüber, scheint es so, als gäbe es keine Regel und in Motoroller würde gleich in den nächsten knallen. Aber irgendwie hat dann wiederum alles seine Ordnung und funktioniert komischerweise.<br><br><img src="verkehr.png" style="margin-left: 100px;"><br><br>
+                          Trotzdem sollte man als Tourist äußerst vorsichtig sein beim Überqueren einer Straße.</li></br>
+                        <li>Als Transportmittel lässt sich das Taxi empfehlen. Es ist das häufigste vorkommende Transportobjekt für Touristen auf den Straßen. Einen Motorroller als Tourist in der Stadt zu fahren, kann sehr gefährlich sein.</li><br>
+                        <li>Ein Mundschutz ist ebenfalls zu empfehlen aufgrund der stark vergasten Luft in der Stadt.</li></br>
+                  </ul>
+              </div>
+
+              
+            <div id="aside">
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  
+                  <img src="market.png" style="width:100%">
+                  <div class="text">Ben Thanh Markt</div>
+                </div>
+              
+                <div class="mySlides fade">
+                
+                  <img src="notredame.png" style="width:100%">
+                  <div class="text">Notre Dame Kathedrale</div>
+                </div>
+              
+                <div class="mySlides fade">
+                 
+                  <img src="post.png" style="width:100%">
+                  <div class="text">Hauptpostamt</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="rathaus.png" style="width:100%">
+                  <div class="text">Ehemaliges Rathaus</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="tunnel.png" style="width:100%">
+                  <div class="text">Cu Chi Tunnel</div>
+                </div>
+                
+                <div class="mySlides fade">
+                 
+                  <img src="dong.png" style="width:100%">
+                  <div class="text">Vietnamesische Geldscheine</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="fest.png" style="width:100%">
+                  <div class="text">Vietnamesische Feste</div>
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="pho.png" style="width:100%">
+                  <div class="text">Das Gericht Pho</div>
+                </div>
+
+                <!-- Rechter/linker Pfeil -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- Die Punkte -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+              </div> 
+              <script src="Slideshow.js"></script>
+                 
+            </div>
+            <br>
 
                       <div id="footer">Copyright 2021 | TPHCMC Adventures</div>
+                  </body>
  </html>
