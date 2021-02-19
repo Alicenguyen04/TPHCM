@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+ <html>
+       <head>
+             <title>TPHCMC Adventures</title>
+             <link rel="stylesheet" href="style.css">
+             <link rel="stylesheet" href="Slideshow.css">
+            
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+             <meta name="description" content="Ein Reiseguide für Ho Chi Minh Stadt">
+        </head>
+        <body>
+          <div style="max-width: 1000px; margin: 0 auto;">
+              <div id="top"> 
+                 
+                  <div style="background-image: url(Sbild.png); background-size: cover;">
+                    <div id="logo">Ho Chi Minh Stadt</div>
+                    <p><div id="logo-name">Ein Reiseguide für Südvietnam</div></p>
+                  </div>
+                </div>
+            </br></br>
+
+            
+            <div>
+                 <nav id="navigation">
+                  <span style="font-size:25px;cursor:pointer;margin-left: 100px;" onclick="openNav()">&#9776; Menü</span>
+                
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p> <img id="Home" src="Startseite.png"> <a id="zeichen" href="Startseite.html">Startseite</a></p>
+  <p> <img id="Info" src="info.png"> <a href="Allgemeines.html">Allgemeines</a></p>
+  <p id="Sgeschichte"><a href="Geschichte.html">Geschichte</a></p>
+  <p id="Stipps"><a href="Tipps.html">Tipps</a></p>
+  <p> <img id="Pinnadel" src="pinnadel.png"><a href="Entdecken.html">Entdecken</a></p>    
+  <p id="Sessen"><a href="Essen.html">Essen</a></p>   
+  <p id="Skultur"><a href="Kultur.html">Kultur</a></p>  
+  <p id="Sarchitektur"><a href="Architektur.html">Architektur</a></p>  
+</div> 
+                </nav>
+
+                 <script>
+                  function openNav() {
+                    document.getElementById("mySidenav").style.display = "block"; 
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.display = "none";
+                  }
+                  </script>
+
+
+              <div id="main"> 
+                  <!--<section id="ÜberdieStadt">-->
+                    <h2>Über die Stadt</h2>
+                    <p>Ho Chi Minh Stadt wird oft Saigon genannt. Sie ist die größte Stadt in Vietnam und für viele das Zentrum des Landes und auch der erste Berührungspunkt durch ihre zentrale Rolle im Vietnamkrieg. </p>
+                    <p>Ho Chi Minh Stadt ist chaotisch, laut, heiß und auf den ersten Blick überwältigend. Deshalb können ein paar gute Hintergrundinformationen zur Geschichte, Kultur und Sehenswürdigkeiten definitiv nicht schaden.
+                        Sonst kann man sehr leicht in diesem Stadtsystem mit ihren Distrikten und Straßengesetze untergehen.</p>
+                    </br>
+
+                    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script><div style="width:600px;height:400px" id="gmeg_map_canvas"></div><span style="font-size: 10px; color: #111; text-decoration: none;">Powered by </span><a style="font-size: 10px; color: #111; text-decoration: none;" href="https://www.mso-digital.de/sea/google-ads/" title="MSO Digital">Google Ads Agentur</a><span style="font-size: 10px; color: #111; text-decoration: none;"> und </span><a style="font-size: 10px; color: #111; text-decoration: none;" href="https://mso-digital.de/mapsgenerator/" title="Google Maps auf der Website einbinden">Google Maps einbinden</a><script>var gmegMap, gmegMarker, gmegInfoWindow, gmegLatLng;function gmegInitializeMap(){gmegLatLng = new google.maps.LatLng(10.823099,106.629664);gmegMap = new google.maps.Map(document.getElementById("gmeg_map_canvas"),{zoom:10,center:gmegLatLng,mapTypeId:google.maps.MapTypeId.ROADMAP});gmegMarker = new google.maps.Marker({map:gmegMap,position:gmegLatLng});gmegInfoWindow = new google.maps.InfoWindow({content:'<b>Ho Chi Minh Stadt</b><br><br>Ho Chi Minh City'});gmegInfoWindow.open(gmegMap,gmegMarker);}google.maps.event.addDomListener(window,"load",gmegInitializeMap);</script>-->
+                  <!--</section>-->
+                  
+              </div>
+
+              
+            <div id="aside">
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  
+                  <img src="market.png" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+              
+                <div class="mySlides fade">
+                
+                  <img src="notredame.png" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+              
+                <div class="mySlides fade">
+                 
+                  <img src="post.png" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div> 
+              <script src="Slideshow.js"></script>
+                 
+            </div>
+            <div id="footer">Copyright 2021 | TPHCMC Adventures</div>
+              </div>
+          </div>
+              
+              
+        </body>
+ </html>
