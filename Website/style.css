@@ -5,7 +5,7 @@
 
 body {
     font-family: Helvetica;  /*Formatierung für den body: Schriftfamilie*/
-    background-color: rgb(210, 248, 198) ;
+    background-color: rgb(210, 248, 198);
 }
 
 #top { 
@@ -32,7 +32,7 @@ body {
 
 #navigation {
     float: left;        /*Navigationssektion soll links schweben und noch Platz für andere Elemente, in der gleichen Ebene da lassen*/
-    width: 200px;       /*Navigationssektion soll genau 200Pixel breit sein*/
+    max-width: 200px;       /*Navigationssektion soll genau 200Pixel breit sein*/
 }
 
 #navigation a {
@@ -47,27 +47,20 @@ body {
     color:  rgb(133, 196, 114);  /*Link soll in grün erscheinen beim rüberfahren mit der Maus*/
 }
 
-#Menü {
-    width: 15px;
-    height: 15px;
-    margin-left: 65px;
-    margin-right: 5px;
-}
-
 #Home {
-    width: 25px;
+    max-width: 25px;
     height: 25px;
     margin-left: 60px;
 }
 
 #Info {
-    width: 25px;
+    max-width: 25px;
     height: 25px;
     margin-left: 60px;
 }
 
 #Pinnadel{
-    width: 25px;
+    max-width: 25px;
     height: 25px;
     margin-left: 60px;
     margin-right: 5px;
@@ -76,10 +69,16 @@ body {
 
 #main {
    
-    width: 600px;
+    max-width: 600px;
     margin-left: 130px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+    border-style: solid;
+    border-color: rgb(166, 166, 218);
+    border-width: 3px;
+    border-radius: 5px;
 }
 
 #main a:hover {
@@ -91,10 +90,9 @@ body {
 
 }
 
-
 #aside {
 
-    width: 200px;
+    max-width: 200px;
     float: right; /*Fotogalerie soll rechts sein*/
 }
 
