@@ -77,14 +77,16 @@ body {
 }
 
 #navigation {
-    background-color: green;
+   
     float: left;
     width: 200px;
+    
 }
 
 #main {
-    background-color: red;
-    width: 600px;
+   
+    width: 500px;
+    margin-left: 60px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -96,11 +98,9 @@ body {
 }
 
 #aside {
-    background-color: blue;
+
     width: 200px;
-    float: right;
-    
-                /*Fotogalerie soll rechts sein*/
+    float: right; /*Fotogalerie soll rechts sein*/
 }
 
 
@@ -182,4 +182,5 @@ body {
     clear: both;
     margin-left: 500px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
